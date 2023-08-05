@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      label {
+        display: inline-block;
+        min-width: 80px;
+        color: blue;
+      }
+      td {
+        color: red;
+      }
+      table {
+        margin-left: 79px;
+      }
+      div {
+        border: 1px solid black;
+        max-width: 400px;
+        padding: 5px;
+      }
+
+      form {
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <form action="">
+        <h1 style="background-color: red; text-align: center">
+          SỞ THÍCH CỦA BẠN
+        </h1>
+
+        <label for="yourname">Họ và tên:</label>
+        <input type="text" /><br />
+        <label for="">Email:</label>
+        <input type="email" /><br />
+        <label for="">Sở Thích: </label>
+        <table>
+          <tr>
+            <td><input type="checkbox" /> Thể thao</td>
+            <td><input type="checkbox" /> Âm nhạc</td>
+            <td><input type="checkbox" /> Đọc sách</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" /> Lướt web</td>
+            <td><input type="checkbox" /> Chơi game</td>
+            <td><input type="checkbox" /> Điện ảnh</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" /> Du lịch</td>
+          </tr>
+          <tr>
+            <td><input type="button" value="Gửi thông tin" /></td>
+            <td><input type="button" value="Nhập lại" /></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>
